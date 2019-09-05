@@ -5,10 +5,7 @@ int display_arr(int*,int);
 int main()
 {
 	int n;
-
-
-
-	printf("how many numbers u want to be in array\n");
+	printf("How many numbers u want to be in array\n");
 	scanf("%d",&n);
 	int a[n];
 	accept_arr(n,a);
@@ -25,7 +22,7 @@ int accept_arr(int b,int *a)
 	int i;
 	for(i=0;i<b;i++)
 	{
-		printf("enter the number %d\n",i+1);
+		printf("\nEnter the number %d\n",i+1);
 		scanf("%d",&a[i]);
 	}
 }
@@ -62,8 +59,6 @@ int display_arr(int *a,int b)
 	for(int i=0;i<b;i++)
 	{
 		printf("%d\t",a[i]);
-
-
 	}
 }
 
